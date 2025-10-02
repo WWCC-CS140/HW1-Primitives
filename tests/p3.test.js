@@ -16,12 +16,12 @@ describe('Problem 03', () => {
     });
 
     describe('snakecase', () => {
-        it('should return "hello-world" for "Hello World"', () => {
-            expect(snakecase('Hello World')).toEqual('hello-world');
+        it('should return "hello_world" for "Hello World"', () => {
+            expect(snakecase('Hello World')).toEqual('hello_world');
         });
 
-        it('should return "cs140-javascript" for "CS140 JavaScript"', () => {
-            expect(snakecase('CS140 JavaScript')).toEqual('cs140-javascript');
+        it('should return "cs140_javascript" for "CS140 JavaScript"', () => {
+            expect(snakecase('CS140 JavaScript')).toEqual('cs140_javascript');
         });
     });
 });
